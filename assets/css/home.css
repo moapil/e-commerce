@@ -3,8 +3,6 @@
     padding: 0%;
 }
 
-
-
 main{
 
     background-image: url("../img/template.jpg");
@@ -65,7 +63,6 @@ main{
   body {
     font-size: 18px;
     font-family: "Helvetica Neue", sans-serif;
-    background-color: #010a01;
   }  
   
   h1 {
@@ -74,5 +71,43 @@ main{
     font-weight: 400;
   }
 
+.infos{
+  background-color: black;
+  height: 15rem;
+}
+
+.titulo{
+  color: rgb(245, 245, 245);
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.titulo2{
+  color: rgb(245, 245, 245);
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: center;
+}
+.texto{
+  color: rgba(245, 245, 245, 0.801);
+  font-size: 1rem;
+  text-align: center;
+}
+.texto1{
+  color: rgba(245, 245, 245, 0.801);
+  font-size: 1.2rem;
+  text-align: center;
+}
   
+.pe{
+  background-color: black;
+  color: rgba(245, 245, 245, 0.555);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+hr{
+  border-color: rgba(255, 255, 255, 0.555);
+}
+
 

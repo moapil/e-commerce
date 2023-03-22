@@ -1,22 +1,94 @@
 *{
-  margin: 0%;
-  padding: 0%;
+    margin: 0%;
+    padding: 0%;
 }
 
+
+
 main{
-  background-color: rgb(90, 90, 90);
+
+  background-color:rgb(163, 154, 135);
   background-size: cover;
   width: 100%;
   height: 100%;
 }
 
-.footer{
-  background-color: #212121;
-
+.tracking-in-expand {
+	animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  color: white;
+  text-shadow:0 0 15px #ffffff, 0 0 15px #ffffff;
+  font-size: 4.2rem;
 }
 
-.rodape{
-  color: whitesmoke;
-  font-size: 1rem;
-  opacity: 0.5;
+.tracking-in-expand2 {
+	animation: tracking-in-expand2 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  color: white;
+  text-shadow:0 0 15px #ffffff, 0 0 15px #ffffff;
+  font-size: 1.5rem;
 }
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand2 {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+  /* resto das coisas */
+
+  h2 {
+   font-size: 1.8rem;
+  }
+  .container {
+    margin-top: 20vh;
+  }
+  
+  body {
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #000000;
+  }  
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .footer{
+    background-color: black;
+    height: 5px;
+  }
+
+ .vendas{
+  display: flex;
+  justify-content: space-between;
+ } 
+
+ .um, .dois{
+  margin: 2rem;
+  border: solid 2px black;
+  border-radius: 10px;
+ }
+
+
+
