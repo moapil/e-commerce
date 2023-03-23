@@ -54,24 +54,23 @@ main{
 }
 
   /* resto das coisas */
-
-  h2 {
-   font-size: 1.8rem;
-  }
-  .container {
-    margin-top: 20vh;
-  }
   
   body {
     font-size: 18px;
     font-family: "Helvetica Neue", sans-serif;
-    background-color: #000000;
+    background-color: rgb(163, 154, 135);
   }  
   
   h1 {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: bold;
+  }
+
+  hr{
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    height: 1px;
   }
 
   .footer{
@@ -79,16 +78,50 @@ main{
     height: 5px;
   }
 
- .vendas{
-  display: flex;
-  justify-content: space-between;
- } 
+  .primeiro, .segundo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 10rem;
+   } 
 
- .um, .dois{
+ .um, .dois, .tres, .quatro, .cinco, .seis{
   margin: 2rem;
   border: solid 2px black;
   border-radius: 10px;
  }
+ 
+ .imagem{
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+ }
 
+ .preço {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
+.fot{
+  width: 100%;
+  background-color: black;
+}
 
+.pezin{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff8f;
+  font-size: 1rem;
+}
+
+.pezi{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff7c;
+  font-size: 0.5rem;
+}
