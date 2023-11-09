@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/carrinho.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="carrinho.js"></script>
+    <title>Carrinho</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <br>
+            <ul class="menu1">
+                <li><a href="index.html" data-hover="Home">Home</a></li>
+                <li><a href="guitarras.html" data-hover="Guitarras">Guitarras</a></li>
+                <li><a href="contato.html" data-hover="Contato">Contato</a></li>
+                <li><a href="carrinho.html"><img src="./assets/img/carrinho_vazio_64_bg.png" id="carrinho-icon" alt="icone do carrinho" height="30rem"></a></li>        
+              </ul>
+                
+        </nav>
+    </header>
+    <main>
+        <br><br>
+        <h1>Carrinho de Compras</h1>
+        <br><br>
+        <hr>
+        <br><br>
+        <ul id="itens-carrinho">
+            
+        </ul>
+        <p>
+        &nbsp;&nbsp;&nbsp;Quantidade: <span id="qtde-total">0</span>
+        &nbsp;&nbsp;&nbsp;Total: R$ <span id="total-carrinho">0.0</span>
+        </p>
+          
+
+        <br>
+        <button id="limpar-carrinho">Limpar Carrinho</button>
+       
+    </main>
+</body>
+</html>
