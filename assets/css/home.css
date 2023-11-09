@@ -74,10 +74,6 @@ main{
     height: 100vh;
     }
 
-    h2 {
-      font-size: 2rem;
-     }
-
     .container {
       margin-top: 30vh;
     }
@@ -101,25 +97,25 @@ main{
     .titulo{
       color: rgb(245, 245, 245);
       font-weight: bold;
-      font-size: 4rem;
+      font-size: 5rem;
       text-align: center;
     }
 
     .titulo2{
       color: rgb(245, 245, 245);
       font-weight: bolder;
-      font-size: 3rem;
+      font-size: 4rem;
       text-align: center;
     }
 
     .texto{
       color: rgba(245, 245, 245, 0.801);
-      font-size: 2rem;
+      font-size: 3rem;
       text-align: center;
     }
     .texto1{
       color: rgba(245, 245, 245, 0.801);
-      font-size: 3rem;
+      font-size: 4rem;
       text-align: center;
     }
       
@@ -151,7 +147,7 @@ main{
   }
   
   body {
-    font-size: 9px;
+    font-size: 1.12rem;
     font-family: "Helvetica Neue", sans-serif;
   }  
   
@@ -169,23 +165,23 @@ main{
 .titulo{
   color: rgb(245, 245, 245);
   font-weight: bold;
-  font-size: 0.75rem;
+  font-size: 1rem;
   text-align: center;
 }
 .titulo2{
   color: rgb(245, 245, 245);
   font-weight: bolder;
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
 }
 .texto{
   color: rgba(245, 245, 245, 0.801);
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   text-align: center;
 }
 .texto1{
   color: rgba(245, 245, 245, 0.801);
-  font-size: 0.6rem;
+  font-size: 0.80rem;
   text-align: center;
 }
   
