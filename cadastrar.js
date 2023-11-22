@@ -29,21 +29,3 @@ cadastrar.addEventListener('click', ()=>{
     console.log(retorno)
      })
 })
-
-
-// consulta.addEventListener('click', ()=>{
-//      const cadastrar = document.getElementById('cadastrar').value
-//      fetch(`${endpoint}/${cadastrar}`,{
-//          method: "GET",
-//          headers: {
-//             'Content-Type':'application/json'
-//         }
-//     })
-//      .then(res => res.json())
-//     .then(dados => {
-//         console.log(dados)
-//         // res_nome.innerHTML = 'nome: ' + dados.nome
-//         // res_email.innerHTML = 'email: ' + dados.email
-//         // res_senha.innerHTML = 'senha: ' + dados.senha
-//      })
-// })
